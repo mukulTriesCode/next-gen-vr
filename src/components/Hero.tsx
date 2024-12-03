@@ -2,6 +2,7 @@ import React from "react";
 import bgImage from "../assets/section_1.png";
 import rectImg from "../assets/rect_1.png";
 import vrImg from "../assets/vr_image.png";
+import headsetImg from "../assets/headset.png";
 
 const Hero: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Hero: React.FC = () => {
               <img src={bgImage} alt="" />
               <div className="absolute top-0 w-full">
                 <img className="mx-auto" src={rectImg} alt="" />
+                <img className="absolute -top-4 left-1/2 -translate-x-1/2 max-w-[144px]" src={headsetImg} alt="" />
               </div>
             </div>
             <div className="pt-[126px] grid grid-cols-2 z-0">
