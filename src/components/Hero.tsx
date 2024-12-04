@@ -4,6 +4,7 @@ import rectImg from "../assets/rect_1.png";
 import vrImg from "../assets/vr_image.png";
 import headsetImg from "../assets/headset.png";
 import Navbar from "./Navbar";
+import Button from "./Button";
 
 const Hero: React.FC = () => {
   return (
@@ -38,6 +39,9 @@ const Hero: React.FC = () => {
                       these gadgets push the boundaries of immersive
                       experiences, gaming, and more.
                     </p>
+                    <Button type="btn-primary">
+                      Explore More
+                    </Button>
                   </div>
                 </div>
                 <div className="">

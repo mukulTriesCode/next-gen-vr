@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Navbar: React.FC = () => {
   const navItems = ["Home", "Products", "", "Services", "Contact"];
@@ -7,9 +8,9 @@ const Navbar: React.FC = () => {
       <div className="flex justify-center items-center py-6">
         {navItems.map((item, index) => (
           <div key={index} className="min-w-[180px] text-center uppercase">
-            <a href="/">
+            <Button href="/" type="">
               {item}
-            </a>
+            </Button>
           </div>
         ))}
       </div>
