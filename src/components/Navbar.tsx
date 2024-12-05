@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
       <div className="flex justify-center items-center py-6">
         {navItems.map((item, index) => (
           <div key={index} className="min-w-[180px] text-center uppercase">
-            <Button href="/" type="">
+            <Button href="/" className="">
               {item}
             </Button>
           </div>
