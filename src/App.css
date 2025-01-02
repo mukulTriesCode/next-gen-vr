@@ -27,7 +27,8 @@ p {
 .btn-primary {
   background: linear-gradient(95.54deg, #0cfaf5 1.74%, #dc00d3 91.28%);
 }
-.btn-primary:hover::after {
+.btn-primary:hover::after,
+.group:hover .btn-primary::after {
   content: "";
   position: absolute;
   top: -1px;
