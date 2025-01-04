@@ -39,6 +39,41 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="w-full border border-white mb-4"></div>
+          <div className="flex justify-between">
+            <div className="">
+              <ul className="flex gap-10">
+                <li>
+                  <Link to={"/"}>Terms</Link>
+                </li>
+                <li>
+                  <Link to={"/"}>Privacy</Link>
+                </li>
+                <li>
+                  <Link to={"/"}>Conditions</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="">@2024 VR HEADSET LTD. All Right Reserved</div>
+            <div className="flex justify-center items-center">
+              <ul className="flex justify-center items-center gap-12">
+                <li className="max-w-4">
+                  <Link to={"/"}>
+                    <img src={bgImage} alt="" />
+                  </Link>
+                </li>
+                <li className="max-w-4">
+                  <Link to={"/"}>
+                    <img src={bgImage} alt="" />
+                  </Link>
+                </li>
+                <li className="max-w-4">
+                  <Link to={"/"}>
+                    <img src={bgImage} alt="" />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
