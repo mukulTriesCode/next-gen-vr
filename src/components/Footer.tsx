@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router";
-import bgImage from "../assets/section_1.png";
+import gplay from "../assets/google_play.png";
+import appStore from "../assets/app_store.png";
+import discord from "../assets/Vector.svg";
+import twitter from "../assets/Group.svg";
+import telegram from "../assets/Vector (1).svg";
 
 const Footer: React.FC = () => {
   return (
@@ -27,12 +31,12 @@ const Footer: React.FC = () => {
               <div className="flex gap-[60px] justify-center">
                 <div className="max-w-[200px] w-full h-[60px] overflow-hidden">
                   <Link to={"/"} className="">
-                    <img src={bgImage} alt="" />
+                    <img src={gplay} alt="" />
                   </Link>
                 </div>
                 <div className="max-w-[200px] w-full h-[60px] overflow-hidden">
                   <Link to={"/"} className="">
-                    <img src={bgImage} alt="" />
+                    <img src={appStore} alt="" />
                   </Link>
                 </div>
               </div>
@@ -58,17 +62,17 @@ const Footer: React.FC = () => {
               <ul className="flex justify-center items-center gap-12">
                 <li className="max-w-4">
                   <Link to={"/"}>
-                    <img src={bgImage} alt="" />
+                    <img src={discord} alt="" />
                   </Link>
                 </li>
                 <li className="max-w-4">
                   <Link to={"/"}>
-                    <img src={bgImage} alt="" />
+                    <img src={twitter} alt="" />
                   </Link>
                 </li>
                 <li className="max-w-4">
                   <Link to={"/"}>
-                    <img src={bgImage} alt="" />
+                    <img src={telegram} alt="" />
                   </Link>
                 </li>
               </ul>

@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "./Button";
-import headsetImg from "../assets/vr_image.png";
+import gallery1 from "../assets/store1.jpg";
+import gallery2 from "../assets/store2.jpg";
+import gallery3 from "../assets/store3.jpg";
 
 const Gallery: React.FC = () => {
   return (
@@ -16,8 +18,8 @@ const Gallery: React.FC = () => {
             <div className="flex flex-col items-center gap-9 group">
               <div className="relative">
                 <div className="max-w-[280px] aspect-[14/15] rounded-[50px] p-1 btn-primary overflow-hidden">
-                  <div className="bg-gradient-to-r from-purple-500 to-pink-500 max-w-[272px] max-h-[292px] overflow-hidden rounded-[46px] pointer-events-none">
-                    <img className="w-full h-auto object-cover" src={headsetImg} alt="" />
+                  <div className="h-full max-w-[272px] max-h-[292px] overflow-hidden rounded-[46px] pointer-events-none">
+                    <img className="w-full h-full h-auto object-cover" src={gallery1} alt="" />
                   </div>
                 </div>
               </div>
@@ -27,8 +29,8 @@ const Gallery: React.FC = () => {
             <div className="flex flex-col items-center gap-9 group">
               <div className="relative">
                 <div className="max-w-[350px] aspect-[7/8] rounded-[50px] p-1 btn-primary overflow-hidden">
-                  <div className="bg-gradient-to-r from-purple-500 to-pink-500 max-w-[342px] max-h-[392px] overflow-hidden rounded-[46px] pointer-events-none">
-                    <img className="w-full aspect-[7/8] object-cover" src={headsetImg} alt="" />
+                  <div className="h-full max-w-[342px] max-h-[392px] overflow-hidden rounded-[46px] pointer-events-none">
+                    <img className="w-full h-full aspect-[7/8] object-cover" src={gallery2} alt="" />
                   </div>
                 </div>
               </div>
@@ -38,8 +40,8 @@ const Gallery: React.FC = () => {
             <div className="flex flex-col items-center gap-9 group">
               <div className="relative">
                 <div className="max-w-[280px] aspect-[14/15] rounded-[50px] p-1 btn-primary overflow-hidden">
-                  <div className="bg-gradient-to-r from-purple-500 to-pink-500 max-w-[272px] max-h-[292px] overflow-hidden rounded-[46px] pointer-events-none">
-                    <img className="w-full h-auto object-cover" src={headsetImg} alt="" />
+                  <div className="h-full max-w-[272px] max-h-[292px] overflow-hidden rounded-[46px] pointer-events-none">
+                    <img className="w-full h-full h-auto object-cover" src={gallery3} alt="" />
                   </div>
                 </div>
               </div>
