@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import bgImage from "../assets/section_1.png";
+import bgImage from "../assets/cta_bg.png";
 
 const Subscribe: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Subscribe: React.FC = () => {
         <div className="text-white py-[90px] max-w-[1100px] mx-auto flex gap-[77px]">
           <div className="rounded-3xl w-full p-1 btn-primary overflow-hidden relative">
             <div className="rounded-3xl overflow-hidden py-16 relative">
-              <div className="absolute w-full h-full top-0 -z-0">
+              <div className="absolute w-full h-full top-0 -z-0 bg-[#100425]">
                 <img src={bgImage} className="w-full h-full object-cover" alt="" />
               </div>
               <div className="max-w-[760px] mx-auto text-center relative z-10">
