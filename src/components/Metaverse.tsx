@@ -7,7 +7,7 @@ import Button from "./Button";
 const Metaverse: React.FC = () => {
   return (
     <section>
-      <div className="container">
+      <div className="container particles">
         <div className="text-white py-[90px] max-w-[1100px] mx-auto grid grid-cols-2">
           <div className="flex items-center justify-center gap-7">
             <div className="flex-shrink-0">
