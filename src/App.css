@@ -72,3 +72,7 @@ section::after {
   right: 0;
   background-image: url("./assets/bg_right.png");
 }
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-purple-500 to-pink-500;
+}

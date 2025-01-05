@@ -1,5 +1,5 @@
 import React from "react";
-import headsetImg from "../assets/vr_image.png";
+import experience from "../assets/amazed.png";
 import Button from "./Button";
 
 const Experience: React.FC = () => {
@@ -8,11 +8,11 @@ const Experience: React.FC = () => {
       <div className="container">
         <div className="text-white py-[90px] max-w-[1100px] mx-auto flex gap-[77px]">
           <div className="order-2">
-            <div className="max-w-[351px] aspect-[351/387] rounded-[50px] p-1 btn-primary overflow-hidden relative">
-              <div className="bg-gradient-to-r from-purple-500 to-pink-500 max-w-[343px] max-h-[379px] overflow-hidden rounded-[46px] pointer-events-none">
+            <div className="h-full max-w-[351px] aspect-[351/387] rounded-[50px] p-1 btn-primary overflow-visible relative">
+              <div className="h-full bg-[#100425] max-w-[343px] rounded-[46px] pointer-events-none overflow-visible relative">
                 <img
-                  className="w-full h-auto object-cover"
-                  src={headsetImg}
+                  className="absolute bottom-0 right-0 object-cover scale-110 -translate-y-[5%] -translate-x-[5%]"
+                  src={experience}
                   alt=""
                 />
               </div>
