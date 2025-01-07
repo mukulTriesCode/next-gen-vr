@@ -12,13 +12,13 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="text-white py-[90px] max-w-[1100px] mx-auto">
           <div className="w-full mb-16">
-            <ul className="flex justify-around w-full [&_li]:text-[28px] mb-[90px]">
+            <ul data-aos="fade-down" className="flex justify-around w-full [&_li]:text-[28px] mb-[90px]">
               <li className="cursor-pointer hover:underline">About Us</li>
               <li className="cursor-pointer hover:underline">Services</li>
               <li className="cursor-pointer hover:underline">Contact</li>
               <li className="cursor-pointer hover:underline">Products</li>
             </ul>
-            <div className="max-w-[620px] mx-auto text-center">
+            <div data-aos="fade-up" className="max-w-[620px] mx-auto text-center">
               <h4 className="text-3xl mb-8">
                 <Link className="hover:underline" to={"/"}>
                   Download our App
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="w-full border border-white mb-4"></div>
-          <div className="flex justify-between">
+          <div data-aos="fade-up" className="flex justify-between">
             <div className="">
               <ul className="flex gap-10">
                 <li>

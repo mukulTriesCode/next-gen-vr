@@ -17,17 +17,15 @@ const Hero: React.FC = () => {
                 <img src={bgImage} alt="" />
                 <div className="absolute top-0 w-full">
                   <img className="mx-auto" src={rectImg} alt="" />
-                  <img
-                    className="absolute -top-4 left-1/2 -translate-x-1/2 max-w-[144px]"
-                    src={headsetImg}
-                    alt=""
-                  />
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 max-w-[144px]">
+                    <img data-aos="fade-down" src={headsetImg} alt="" />
+                  </div>
                 </div>
               </div>
-              <div className="">
+              <div className="overflow-hidden">
                 <Navbar />
                 <div className="pt-[56px] grid grid-cols-2 z-0">
-                  <div className="flex flex-col justify-center items-center -translate-y-20">
+                  <div data-aos="fade-right" className="flex flex-col justify-center items-center -translate-y-20">
                     <div className="max-w-[452px]">
                       <h1 className="text-[96px] leading-[96px] font-bold">
                         Next-Gen
@@ -43,7 +41,7 @@ const Hero: React.FC = () => {
                       <Button className="btn-primary">Explore More</Button>
                     </div>
                   </div>
-                  <div className="">
+                  <div data-aos="fade-left" className="">
                     <img src={vrImg} alt="" />
                   </div>
                 </div>
