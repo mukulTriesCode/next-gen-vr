@@ -5,7 +5,7 @@ import bgImage from "../assets/cta_bg.png";
 const Subscribe: React.FC = () => {
   return (
     <section>
-      <div className="container">
+      <div data-aos="fade-up" className="container">
         <div className="text-white py-[90px] max-w-[1100px] mx-auto flex gap-[77px]">
           <div className="rounded-3xl w-full p-1 btn-primary overflow-hidden relative">
             <div className="rounded-3xl overflow-hidden py-16 relative">

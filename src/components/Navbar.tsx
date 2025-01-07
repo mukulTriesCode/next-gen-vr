@@ -4,8 +4,8 @@ import Button from "./Button";
 const Navbar: React.FC = () => {
   const navItems = ["Home", "Products", "", "Services", "Contact"];
   return (
-    <div className="">
-      <div className="flex justify-center items-center py-6">
+    <header data-aos="fade-down">
+      <nav className="flex justify-center items-center py-6">
         {navItems.map((item, index) => (
           <div key={index} className="min-w-[180px] text-center uppercase">
             <Button href="/" className="">
@@ -13,8 +13,8 @@ const Navbar: React.FC = () => {
             </Button>
           </div>
         ))}
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 
