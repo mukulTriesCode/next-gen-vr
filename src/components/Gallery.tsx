@@ -7,7 +7,7 @@ import gallery3 from "../assets/store3.jpg";
 const Gallery: React.FC = () => {
   return (
     <section>
-      <div data-aos="fade-up" className="container">
+      <div data-aos-duration="1000" data-aos="fade-up" className="container">
         <div className="text-white py-[90px] max-w-[1100px] mx-auto">
           <div className="flex flex-col justify-center mb-20">
             <h2 className="text-[60px] leading-[60px] font-semibold text-center">
