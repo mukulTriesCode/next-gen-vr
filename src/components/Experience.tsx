@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
     <section>
       <div className="container">
         <div className="text-white py-[90px] max-w-[1100px] mx-auto flex gap-[77px]">
-          <div data-aos="fade-left" className="order-2">
+          <div data-aos-duration="1000" data-aos="fade-left" className="order-2">
             <div className="h-full max-w-[351px] aspect-[351/387] rounded-[50px] p-1 btn-primary overflow-visible relative">
               <div className="h-full bg-[#100425] max-w-[343px] rounded-[46px] pointer-events-none overflow-visible relative">
                 <img
@@ -18,7 +18,7 @@ const Experience: React.FC = () => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-right" className="ps-[60px] max-w-[671px] flex flex-col justify-center">
+          <div data-aos-duration="1000" data-aos="fade-right" className="ps-[60px] max-w-[671px] flex flex-col justify-center">
             <h2 className="text-[60px] leading-[60px] font-semibold">
               <span className="gradient-text">Embrace the Real World:</span>{" "}
               Experience and Enjoy it
