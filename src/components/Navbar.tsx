@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
       <nav className="flex justify-center items-center py-6">
         {navItems.map((item, index) => (
           <div key={index} className="min-w-[180px] text-center uppercase">
-            <Button href="/" className="">
+            <Button href="/" className="hover:underline underline-offset-4">
               {item}
             </Button>
           </div>
