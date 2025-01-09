@@ -9,7 +9,7 @@ const Metaverse: React.FC = () => {
     <section>
       <div className="container particles">
         <div className="text-white py-[90px] max-w-[1100px] mx-auto grid grid-cols-2">
-          <div data-aos-duration="1000" data-aos="fade-right" className="flex items-center justify-center gap-7">
+          <div data-aos-duration="2200" data-aos="fade-right" className="flex items-center justify-center gap-7">
             <div  className="flex-shrink-0">
               <div className="max-w-[331px] aspect-[331/365] rounded-[50px] p-1 btn-primary overflow-hidden relative">
                 <div className="h-full max-w-[323px] max-h-[357px] overflow-hidden rounded-[46px] pointer-events-none">
@@ -42,7 +42,7 @@ const Metaverse: React.FC = () => {
               </div>
             </div>
           </div>
-          <div data-aos-duration="1000" data-aos="fade-left" className="ps-[60px] flex flex-col justify-center">
+          <div data-aos-duration="2200" data-aos="fade-left" className="ps-[60px] flex flex-col justify-center">
             <h2 className="text-[60px] leading-[60px] font-semibold">
               <span className="gradient-text">Your Gateway</span> to the
               Metaverse

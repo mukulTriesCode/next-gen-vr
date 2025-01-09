@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         <div className="text-white py-[90px] max-w-[1100px] mx-auto">
           <div className="w-full mb-16">
             <ul
-              data-aos-duration="1000"
+              data-aos-duration="2200"
               data-aos="fade-down"
               className="flex justify-around w-full [&_li]:text-[28px] mb-[90px]"
             >
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               <li className="cursor-pointer hover:underline">Products</li>
             </ul>
             <div
-              data-aos-duration="1000"
+              data-aos-duration="2200"
               data-aos="fade-up"
               className="max-w-[620px] mx-auto text-center"
             >
@@ -50,19 +50,19 @@ const Footer: React.FC = () => {
               </div>
             </div>
           </div>
-          <div data-aos-duration="1000" data-aos="fade-up">
+          <div data-aos-duration="2200" data-aos="fade-up">
             <div className="w-full border border-white mb-4"></div>
             <div className="flex justify-between">
               <div className="">
                 <ul className="flex gap-10">
                   <li>
-                    <Link to={"/"}>Terms</Link>
+                    <Link className="hover:underline underline-offset-2" to={"/"}>Terms</Link>
                   </li>
                   <li>
-                    <Link to={"/"}>Privacy</Link>
+                    <Link className="hover:underline underline-offset-2" to={"/"}>Privacy</Link>
                   </li>
                   <li>
-                    <Link to={"/"}>Conditions</Link>
+                    <Link className="hover:underline underline-offset-2" to={"/"}>Conditions</Link>
                   </li>
                 </ul>
               </div>
@@ -70,17 +70,17 @@ const Footer: React.FC = () => {
               <div className="flex justify-center items-center">
                 <ul className="flex justify-center items-center gap-12">
                   <li className="max-w-4">
-                    <Link to={"/"}>
+                    <Link className="hover:opacity-60 transition" to={"/"}>
                       <img src={discord} alt="" />
                     </Link>
                   </li>
                   <li className="max-w-4">
-                    <Link to={"/"}>
+                    <Link className="hover:opacity-60 transition" to={"/"}>
                       <img src={twitter} alt="" />
                     </Link>
                   </li>
                   <li className="max-w-4">
-                    <Link to={"/"}>
+                    <Link className="hover:opacity-60 transition" to={"/"}>
                       <img src={telegram} alt="" />
                     </Link>
                   </li>
