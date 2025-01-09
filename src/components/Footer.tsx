@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         <div className="text-white py-[90px] max-w-[1100px] mx-auto">
           <div className="w-full mb-16">
             <ul
-              data-aos-duration="1000"
+              data-aos-duration="2200"
               data-aos="fade-down"
               className="flex justify-around w-full [&_li]:text-[28px] mb-[90px]"
             >
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               <li className="cursor-pointer hover:underline">Products</li>
             </ul>
             <div
-              data-aos-duration="1000"
+              data-aos-duration="2200"
               data-aos="fade-up"
               className="max-w-[620px] mx-auto text-center"
             >
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
           </div>
-          <div data-aos-duration="1000" data-aos="fade-up">
+          <div data-aos-duration="2200" data-aos="fade-up">
             <div className="w-full border border-white mb-4"></div>
             <div className="flex justify-between">
               <div className="">
