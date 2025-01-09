@@ -7,8 +7,8 @@ import gallery3 from "../assets/store3.jpg";
 const Gallery: React.FC = () => {
   return (
     <section>
-      <div data-aos-duration="1000" data-aos="fade-up" className="container">
-        <div className="text-white py-[90px] max-w-[1100px] mx-auto">
+      <div className="container">
+        <div data-aos-duration="2200" data-aos="fade-up" className="text-white py-[90px] max-w-[1100px] mx-auto">
           <div className="flex flex-col justify-center mb-20">
             <h2 className="text-[60px] leading-[60px] font-semibold text-center">
               <span className="gradient-text">Our Next gen</span> Vr Store
@@ -19,7 +19,7 @@ const Gallery: React.FC = () => {
               <div className="relative">
                 <div className="max-w-[280px] aspect-[14/15] rounded-[50px] p-1 btn-primary overflow-hidden">
                   <div className="h-full max-w-[272px] max-h-[292px] overflow-hidden rounded-[46px] pointer-events-none">
-                    <img className="w-full h-full h-auto object-cover" src={gallery1} alt="" />
+                    <img className="w-full h-full object-cover" src={gallery1} alt="" />
                   </div>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const Gallery: React.FC = () => {
               <div className="relative">
                 <div className="max-w-[280px] aspect-[14/15] rounded-[50px] p-1 btn-primary overflow-hidden">
                   <div className="h-full max-w-[272px] max-h-[292px] overflow-hidden rounded-[46px] pointer-events-none">
-                    <img className="w-full h-full h-auto object-cover" src={gallery3} alt="" />
+                    <img className="w-full h-full object-cover" src={gallery3} alt="" />
                   </div>
                 </div>
               </div>
