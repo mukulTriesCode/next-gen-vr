@@ -56,13 +56,13 @@ const Footer: React.FC = () => {
               <div className="">
                 <ul className="flex gap-10">
                   <li>
-                    <Link to={"/"}>Terms</Link>
+                    <Link className="hover:underline underline-offset-2" to={"/"}>Terms</Link>
                   </li>
                   <li>
-                    <Link to={"/"}>Privacy</Link>
+                    <Link className="hover:underline underline-offset-2" to={"/"}>Privacy</Link>
                   </li>
                   <li>
-                    <Link to={"/"}>Conditions</Link>
+                    <Link className="hover:underline underline-offset-2" to={"/"}>Conditions</Link>
                   </li>
                 </ul>
               </div>
@@ -70,17 +70,17 @@ const Footer: React.FC = () => {
               <div className="flex justify-center items-center">
                 <ul className="flex justify-center items-center gap-12">
                   <li className="max-w-4">
-                    <Link to={"/"}>
+                    <Link className="hover:opacity-60 transition" to={"/"}>
                       <img src={discord} alt="" />
                     </Link>
                   </li>
                   <li className="max-w-4">
-                    <Link to={"/"}>
+                    <Link className="hover:opacity-60 transition" to={"/"}>
                       <img src={twitter} alt="" />
                     </Link>
                   </li>
                   <li className="max-w-4">
-                    <Link to={"/"}>
+                    <Link className="hover:opacity-60 transition" to={"/"}>
                       <img src={telegram} alt="" />
                     </Link>
                   </li>
