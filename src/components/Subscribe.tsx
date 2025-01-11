@@ -35,7 +35,7 @@ const Subscribe: React.FC = () => {
                 <form action="">
                   <div className="relative px-8 flex">
                     <input
-                      className="w-full ps-6 pe-[140px] py-7 rounded-[60px] bg-white/20 placeholder:text-white"
+                      className="w-full ps-6 pe-[140px] py-7 rounded-[60px] bg-white/20 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-purple-500 placeholder:text-white"
                       type="text"
                       placeholder="enter your email address for update...."
                     />
